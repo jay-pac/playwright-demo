@@ -1,19 +1,52 @@
-// @ts-check
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
-
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+test.skip('test', async ({ page }) => {
+  await page.goto('https://stage.iamonline.hhs.state.tx.us/oauth2/v1/authorize?client_id=okta.2b1959c8-bcc0-56eb-a589-cfcfb7422f26&code_challenge=p1xM9gmH9q16jLC9VJgL54U4InHdgQEXDSn71_ThePw&code_challenge_method=S256&nonce=5nwXO4oZU6dbG7t0NloLzWRKBbekUfMaMBy9jpl9Ke8OgtVHfrF4l0cWnj3Bd8J7&redirect_uri=https%3A%2F%2Fstage.iamonline.hhs.state.tx.us%2Fenduser%2Fcallback&response_type=code&state=iTVj60epgpEcYKulwP91IIU4OTvIj9la1cH4sy9LrECKq98cqNAKrd3SYq0KvTV2&scope=openid%20profile%20email%20okta.users.read.self%20okta.users.manage.self%20okta.internal.enduser.read%20okta.internal.enduser.manage%20okta.enduser.dashboard.read%20okta.enduser.dashboard.manage');
+  await page.getByLabel('Username').click();
+  await page.getByLabel('Username').click();
+  await page.getByLabel('Username').fill('STGAgencySpsr.JasonPacitti@hhs.texas.gov');
+  await page.getByRole('button', { name: 'Next' }).click();
+  await page.getByText('Sign in Can’t access your account? Back Next Sign-in options').click();
+  await page.getByPlaceholder('Email, phone, or Skype').click();
+  await page.getByPlaceholder('Email, phone, or Skype').fill('STGAgencySpsr.JasonPacitti@hhs.texas.gov');
+  await page.getByRole('button', { name: 'Next' }).click();
+  await page.getByPlaceholder('Password').click();
+  await page.getByPlaceholder('Password').fill('newpassword123!');
+  await page.getByText('Sign in', { exact: true }).click();
+  await page.getByRole('button', { name: 'Text +X XXX-XXX-XX73‎' }).click();
+  await page.getByPlaceholder('Code').click();
+  await page.getByPlaceholder('Code').fill('260350');
+  await page.getByRole('button', { name: 'Verify' }).click();
+  const page1Promise = page.waitForEvent('popup');
+  await page.getByLabel('launch app EMSTR Online').click();
+  const page1 = await page1Promise;
+  await page1.getByRole('link', { name: 'Entity', exact: true }).click();
+  await page1.getByRole('link', { name: 'EMS Patient Record' }).click();
+  await page1.getByRole('link', { name: 'Add New Entity' }).click();
+  await page1.getByRole('combobox', { name: '*Record Type' }).locator('span').click();
+  await page1.getByRole('option', { name: 'Patient Record - EMS' }).click();
+  await page1.getByLabel('First Name').click();
+  await page1.getByLabel('First Name').fill('Fred');
+  await page1.getByLabel('First Name').press('Tab');
+  await page1.getByLabel('Middle Name').press('Tab');
+  await page1.getByLabel('Last Name').fill('Tester');
+  await page1.getByLabel('Last Name').press('Tab');
+  await page1.getByPlaceholder('mm/dd/yyyy').press('Tab');
+  await page1.getByRole('combobox', { name: 'Gender' }).locator('span').click();
+  await page1.getByRole('option', { name: 'Male', exact: true }).click();
+  await page1.getByLabel('Street', { exact: true }).click();
+  await page1.getByLabel('Street', { exact: true }).fill('617 W 6th Street');
+  await page1.getByRole('textbox', { name: 'City' }).click();
+  await page1.getByRole('textbox', { name: 'City' }).fill('Austin');
+  await page1.getByRole('option', { name: 'Austin', exact: true }).click();
+  await page1.getByRole('textbox', { name: 'Zip Code', exact: true }).click();
+  await page1.getByRole('combobox', { name: 'County' }).locator('span').click();
+  await page1.getByRole('combobox', { name: 'County' }).locator('div').nth(2).click();
+  await page1.getByRole('option', { name: 'Travis' }).click();
+  await page1.getByRole('textbox', { name: 'County' }).press('Tab');
+  await page1.getByRole('textbox', { name: 'Country' }).press('Tab');
+  await page1.getByPlaceholder('Enter Phone').press('Tab');
+  await page1.getByLabel('email').press('Tab');
+  await page1.getByRole('button', { name: 'Save' }).click();
 });
