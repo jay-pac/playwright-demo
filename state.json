@@ -1,0 +1,267 @@
+{
+  "cookies": [
+    {
+      "name": "enduser_version",
+      "value": "2",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": 1746669577.352381,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "t",
+      "value": "default",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DT",
+      "value": "DI1RC5qFlgJSGWQRLbC2EzhDw",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": 1746669577.352726,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "okta_user_lang",
+      "value": "en",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "okta-oauth-redirect-params",
+      "value": "{%22responseType%22:%22code%22%2C%22state%22:%22a5TNK9waOWBWUdf6sYCaZU5rS4CcuQvrrqrbAKJuV9tv5XPDCu1P4naqBuYdLKjS%22%2C%22nonce%22:%22KqkvW1xoJsp1SkyGW4gNu3QXl4bpKzpNXZefbkixiPhXE8gApkBrClID10EOW7Gg%22%2C%22scopes%22:[%22openid%22%2C%22profile%22%2C%22email%22%2C%22okta.users.read.self%22%2C%22okta.users.manage.self%22%2C%22okta.internal.enduser.read%22%2C%22okta.internal.enduser.manage%22%2C%22okta.enduser.dashboard.read%22%2C%22okta.enduser.dashboard.manage%22%2C%22okta.myAccount.sessions.manage%22]%2C%22clientId%22:%22okta.2b1959c8-bcc0-56eb-a589-cfcfb7422f26%22%2C%22urls%22:{%22issuer%22:%22https://stage.iamonline.hhs.state.tx.us%22%2C%22authorizeUrl%22:%22https://stage.iamonline.hhs.state.tx.us/oauth2/v1/authorize%22%2C%22userinfoUrl%22:%22https://stage.iamonline.hhs.state.tx.us/oauth2/v1/userinfo%22%2C%22tokenUrl%22:%22https://stage.iamonline.hhs.state.tx.us/oauth2/v1/token%22%2C%22revokeUrl%22:%22https://stage.iamonline.hhs.state.tx.us/oauth2/v1/revoke%22%2C%22logoutUrl%22:%22https://stage.iamonline.hhs.state.tx.us/oauth2/v1/logout%22}%2C%22ignoreSignature%22:false}",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "okta-oauth-nonce",
+      "value": "KqkvW1xoJsp1SkyGW4gNu3QXl4bpKzpNXZefbkixiPhXE8gApkBrClID10EOW7Gg",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "okta-oauth-state",
+      "value": "a5TNK9waOWBWUdf6sYCaZU5rS4CcuQvrrqrbAKJuV9tv5XPDCu1P4naqBuYdLKjS",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ln",
+      "value": "STGAgencySpsr.JasonPacitti@hhs.texas.gov",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": 1743645584,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "D452FFB312CE9FA6B2A7F87DB12EFBC2",
+      "domain": "stage.iamonline.hhs.state.tx.us",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "esctx-6bkUOPlwZmU",
+      "value": "AQABCQEAAADnfolhJpSnRYB1SVj-Hgd8HCWo4Cbe6hPu-_WeKmZ04QDkl-wToi6huHn5LUjBryAzYThX60uAa-JMWQxY5XBdxhos_r1a5PnEgJbccR6HMscaX0tjFY34Wz7vGxr894VbNyxi_icKXCqpvU5s9J7UFezVpcK9vGKjByYjtDkDaCAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "x-ms-gateway-slice",
+      "value": "estsfd",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "stsservicecookie",
+      "value": "estsfd",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AADSSO",
+      "value": "NA|NoExtension",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SSOCOOKIEPULLED",
+      "value": "1",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1712109645,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "buid",
+      "value": "0.AQQAMnf5m7mCm0mxaqk-jr1Ta1YcjNAaR0tFpiAdwIAsoAIEAAA.AQABGgEAAADnfolhJpSnRYB1SVj-Hgd8spkaJys-LTneF1HMdyPGt7kYHvy3hA_ZxwXu-CDQi7JraMeWVxl89MlrbLz2rjvwlMY1gkqmBqk6X7kTbm-V1RgzWNnGGshvD98H4Wv4-UAgAA",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1714701585.787355,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx",
+      "value": "PAQABBwEAAADnfolhJpSnRYB1SVj-Hgd8thReTdCCJUYUy3Phh84r3GZE-dqVDXY0bQ6XjC-kh1POE3KCreLqS6ISGgkFq3pvSvsCMXTB6Ga4PRlZ41xIf3hThmveZ8vkHOiQDZiFuCiX4VgIGtIsPj_1zjpy4SYczKb2vG41_y4i1pCD7ImbVVBAv5mdHsLdpyqIi-_cIHAgAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx-Nz4ffXsLjms",
+      "value": "AQABCQEAAADnfolhJpSnRYB1SVj-Hgd8S969Y41inAQtPFCr3zZfyoW5dA-NhKTZf5rJrAeJTYC48noc1d_zS4-vT5lFaaV7VHwoTFOOj3eMk2qtR1h0KIws_wQRollLALc9fAJnwCRboGBB7bfkX3A-9iOPfksBx_bi7AbAHBI_Hpv987sZ6SAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "fpc",
+      "value": "AoL7F0FNfsREnVGwvuMbARyhfq5FAQAAABCvnt0OAAAA",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1714701585.787766,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "brcap",
+      "value": "0",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": 1745805585,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uaid",
+      "value": "581849b14acf4771a35574d4b9cd3cb4",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPRequ",
+      "value": "id=N&lt=1712109586&co=1",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "fpc",
+      "value": "Ak_E-Hadty9Ltqk4AZ9V_Zk",
+      "domain": "autologon.microsoftazuread-sso.com",
+      "path": "/",
+      "expires": 1714701586.815987,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "x-ms-gateway-slice",
+      "value": "estsfd",
+      "domain": "autologon.microsoftazuread-sso.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "stsservicecookie",
+      "value": "estsfd",
+      "domain": "autologon.microsoftazuread-sso.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://stage.iamonline.hhs.state.tx.us",
+      "localStorage": [
+        {
+          "name": "i18nextLng",
+          "value": "en"
+        },
+        {
+          "name": "okta-cache-storage",
+          "value": "{\"https://stage.iamonline.hhs.state.tx.us/.well-known/openid-configuration\":{\"expiresAt\":1712195978,\"response\":{\"issuer\":\"https://stage.iamonline.hhs.state.tx.us\",\"authorization_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/authorize\",\"token_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/token\",\"userinfo_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/userinfo\",\"registration_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/clients\",\"jwks_uri\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/keys\",\"response_types_supported\":[\"code\",\"id_token\",\"code id_token\",\"code token\",\"id_token token\",\"code id_token token\"],\"response_modes_supported\":[\"query\",\"fragment\",\"form_post\",\"okta_post_message\"],\"grant_types_supported\":[\"authorization_code\",\"implicit\",\"refresh_token\",\"password\",\"urn:ietf:params:oauth:grant-type:device_code\",\"urn:openid:params:grant-type:ciba\",\"urn:okta:params:oauth:grant-type:otp\",\"http://auth0.com/oauth/grant-type/mfa-otp\",\"urn:okta:params:oauth:grant-type:oob\",\"http://auth0.com/oauth/grant-type/mfa-oob\"],\"subject_types_supported\":[\"public\"],\"id_token_signing_alg_values_supported\":[\"RS256\"],\"scopes_supported\":[\"openid\",\"email\",\"profile\",\"address\",\"phone\",\"offline_access\",\"groups\"],\"token_endpoint_auth_methods_supported\":[\"client_secret_basic\",\"client_secret_post\",\"client_secret_jwt\",\"private_key_jwt\",\"none\"],\"claims_supported\":[\"iss\",\"ver\",\"sub\",\"aud\",\"iat\",\"exp\",\"jti\",\"auth_time\",\"amr\",\"idp\",\"nonce\",\"name\",\"nickname\",\"preferred_username\",\"given_name\",\"middle_name\",\"family_name\",\"email\",\"email_verified\",\"profile\",\"zoneinfo\",\"locale\",\"address\",\"phone_number\",\"picture\",\"website\",\"gender\",\"birthdate\",\"updated_at\",\"at_hash\",\"c_hash\"],\"code_challenge_methods_supported\":[\"S256\"],\"introspection_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/introspect\",\"introspection_endpoint_auth_methods_supported\":[\"client_secret_basic\",\"client_secret_post\",\"client_secret_jwt\",\"private_key_jwt\",\"none\"],\"revocation_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/revoke\",\"revocation_endpoint_auth_methods_supported\":[\"client_secret_basic\",\"client_secret_post\",\"client_secret_jwt\",\"private_key_jwt\",\"none\"],\"end_session_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/logout\",\"request_parameter_supported\":true,\"request_object_signing_alg_values_supported\":[\"HS256\",\"HS384\",\"HS512\",\"RS256\",\"RS384\",\"RS512\",\"ES256\",\"ES384\",\"ES512\"],\"device_authorization_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/device/authorize\",\"pushed_authorization_request_endpoint\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/par\",\"backchannel_token_delivery_modes_supported\":[\"poll\"],\"backchannel_authentication_request_signing_alg_values_supported\":[\"HS256\",\"HS384\",\"HS512\",\"RS256\",\"RS384\",\"RS512\",\"ES256\",\"ES384\",\"ES512\"],\"dpop_signing_alg_values_supported\":[\"RS256\",\"RS384\",\"RS512\",\"ES256\",\"ES384\",\"ES512\"],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Platform-Version\",\"cache-control\":\"max-age=86400, must-revalidate\",\"connection\":\"Keep-Alive\",\"content-security-policy\":\"frame-ancestors 'self'\",\"content-type\":\"application/json\",\"date\":\"Wed, 03 Apr 2024 01:59:38 GMT\",\"expires\":\"Thu, 04 Apr 2024 01:59:38 GMT\",\"keep-alive\":\"timeout=5, max=100\",\"p3p\":\"CP=\\\"HONK\\\"\",\"server\":\"nginx\",\"strict-transport-security\":\"max-age=315360000; includeSubDomains\",\"transfer-encoding\":\"chunked\",\"vary\":\"Origin\",\"x-content-type-options\":\"nosniff\",\"x-okta-request-id\":\"Zgy4CqOvbn0ymdlaklnxsgAABt0\",\"x-xss-protection\":\"0\"}}}}"
+        },
+        {
+          "name": "okta-shared-transaction-storage",
+          "value": "{\"a5TNK9waOWBWUdf6sYCaZU5rS4CcuQvrrqrbAKJuV9tv5XPDCu1P4naqBuYdLKjS\":{\"dateCreated\":1712109578383,\"transaction\":{\"issuer\":\"https://stage.iamonline.hhs.state.tx.us\",\"urls\":{\"issuer\":\"https://stage.iamonline.hhs.state.tx.us\",\"authorizeUrl\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/authorize\",\"userinfoUrl\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/userinfo\",\"tokenUrl\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/token\",\"revokeUrl\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/revoke\",\"logoutUrl\":\"https://stage.iamonline.hhs.state.tx.us/oauth2/v1/logout\"},\"clientId\":\"okta.2b1959c8-bcc0-56eb-a589-cfcfb7422f26\",\"redirectUri\":\"https://stage.iamonline.hhs.state.tx.us/enduser/callback\",\"responseType\":\"code\",\"scopes\":[\"openid\",\"profile\",\"email\",\"okta.users.read.self\",\"okta.users.manage.self\",\"okta.internal.enduser.read\",\"okta.internal.enduser.manage\",\"okta.enduser.dashboard.read\",\"okta.enduser.dashboard.manage\",\"okta.myAccount.sessions.manage\"],\"state\":\"a5TNK9waOWBWUdf6sYCaZU5rS4CcuQvrrqrbAKJuV9tv5XPDCu1P4naqBuYdLKjS\",\"nonce\":\"KqkvW1xoJsp1SkyGW4gNu3QXl4bpKzpNXZefbkixiPhXE8gApkBrClID10EOW7Gg\",\"ignoreSignature\":false,\"codeVerifier\":\"38666927866c3f7bd1321b1f57f8a880c7c982f7bc9\",\"codeChallengeMethod\":\"S256\",\"codeChallenge\":\"acBXHCC9wJJ6USlcmsmsAJAiYcvOQI1fPSLCQqxFNSc\"}}}"
+        },
+        {
+          "name": "okta-token-storage",
+          "value": "{}"
+        }
+      ]
+    }
+  ]
+}

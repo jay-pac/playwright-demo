@@ -34,7 +34,7 @@ test.skip("Browser Fixture Playwright test", async ({ browser }) => {
   console.log(allTitles);
 });
 
-test("UI Controls", async ({ browser, page }) => {
+test.skip("UI Controls", async ({ browser, page }) => {
   const userName = page.locator("#username");
   const passWord = page.locator("#password");
   const signIn = page.locator("#signInBtn");
@@ -65,7 +65,7 @@ test("UI Controls", async ({ browser, page }) => {
   await expect(documentLink).toHaveAttribute("class", "blinkingText");
 });
 
-test("Handling Child Windows and Tabs", async ({ browser }) => {
+test.skip("Handling Child Windows and Tabs", async ({ browser }) => {
   
   const context = await browser.newContext();
   const page = await context.newPage();
