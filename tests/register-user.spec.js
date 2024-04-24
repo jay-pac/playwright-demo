@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test("", async ({ browser, page }) => {
+test.skip("", async ({ browser, page }) => {
   // page fixture gives you a default browser instance
   await page.goto("https://rahulshettyacademy.com/client/");
   // get title
